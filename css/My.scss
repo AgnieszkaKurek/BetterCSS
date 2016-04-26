@@ -35,6 +35,22 @@ h3
   font-size: $baseSize + 2;
 }
 
+.col-2 {
+  width: 502px;
+}
+
+.col-3 {
+  width: 331.333px;
+}
+
+.col-4 {
+  width: 246px;
+}
+.col-5 {
+  width: 194.8px;
+}
+
+
 @for $colNumber from 2 through 5 {
   .col-#{$colNumber} {
     width: ($app-size / $colNumber) - 10px;
